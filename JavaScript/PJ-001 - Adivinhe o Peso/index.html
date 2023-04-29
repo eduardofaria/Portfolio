@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PJ-001 - Adivinhe o Peso</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style></style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/melancia.jpg" alt="Melancia">
+            </div>
+            <div class="col-sm-8">
+                <h1>Qual o peso da melancia?</h1>
+                <p>
+                    <label for="in_nome">Nome do Apostador: </label>
+                    <input type="text" id="in_nome" class="form-control" autofocus>
+                </p>
+                <p>
+                    <label for="in_peso">Peso (em gramas): </label>
+                    <input type="text" id="in_peso" class="form-control">
+                </p>
+                <p>
+                    <input type="button" value="Apostar" id="btn_apostar" class="btn btn-primary">
+                    <input type="button" value="Vencedor" id="btn_vencedor" class="btn btn-warning">
+                    <input type="button" value="Limpar" id="btn_limpar" class="btn btn-danger">
+                </p>
+                <pre id="out_apostas"></pre>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
