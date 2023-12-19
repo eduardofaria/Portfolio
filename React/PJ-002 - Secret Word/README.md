@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Secret Word
+
+![Preview](https://github.com/eduardofaria/Portfolio/assets/20214737/bdebcd48-de95-48bb-889e-88e1085fd4d8)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
